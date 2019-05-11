@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FA2017LAB1_MyStore_Khoja {
+public class MyStore {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,7 +27,7 @@ public class FA2017LAB1_MyStore_Khoja {
 		System.out.print("Enter amount of money paid : $");
 		money = reader.nextDouble();
 
-		FA2017LAB1_Receipt_Khoja test1 = new FA2017LAB1_Receipt_Khoja(productName,productID,transactionID,productPrice,units,money);
+		Receipt test1 = new Receipt(productName,productID,transactionID,productPrice,units,money);
 				
 		System.out.println(test1);
 		

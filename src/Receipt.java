@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class FA2017LAB1_Receipt_Khoja {
+public class Receipt {
 	
 	String productName = "";
 	String productID = "";
@@ -14,12 +14,12 @@ public class FA2017LAB1_Receipt_Khoja {
 	
 
 	
-	public FA2017LAB1_Receipt_Khoja() {
+	public Receipt() {
 		
 	
 	}
 	
-	public FA2017LAB1_Receipt_Khoja(String a, String pID, int tranID, double price, int uni, double mon) {
+	public Receipt(String a, String pID, int tranID, double price, int uni, double mon) {
 		
 		productName = a;
 		productID = pID;
